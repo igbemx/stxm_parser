@@ -1,0 +1,55 @@
+
+ScanDefinition = { Label = "30523005.hdr"; Type = "NEXAFS Point Scan"; Flags = "Spectra"; ScanType = "Spectra"; Dwell = 1000;
+	Regions = (1,
+{
+			PAxis = { Name = "Energy"; Unit = "eV"; Min = 280; Max = 310; Dir = 1;
+				Points = (121, 280.000, 280.250, 280.500, 280.750, 281.000, 281.250, 281.500, 281.750, 282.000, 282.250, 282.500, 282.750, 283.000, 283.250, 283.500, 283.750, 284.000, 284.250, 284.500, 284.750, 285.000, 285.250, 285.500, 285.750, 286.000, 286.250, 286.500, 286.750, 287.000, 287.250, 287.500, 287.750, 288.000, 288.250, 288.500, 288.750, 289.000, 289.250, 289.500, 289.750, 290.000, 290.250, 290.500, 290.750, 291.000, 291.250, 291.500, 291.750, 292.000, 292.250, 292.500, 292.750, 293.000, 293.250, 293.500, 293.750, 294.000, 294.250, 294.500, 294.750, 295.000, 295.250, 295.500, 295.750, 296.000, 296.250, 296.500, 296.750, 297.000, 297.250, 297.500, 297.750, 298.000, 298.250, 298.500, 298.750, 299.000, 299.250, 299.500, 299.750, 300.000, 300.250, 300.500, 300.750, 301.000, 301.250, 301.500, 301.750, 302.000, 302.250, 302.500, 302.750, 303.000, 303.250, 303.500, 303.750, 304.000, 304.250, 304.500, 304.750, 305.000, 305.250, 305.500, 305.750, 306.000, 306.250, 306.500, 306.750, 307.000, 307.250, 307.500, 307.750, 308.000, 308.250, 308.500, 308.750, 309.000, 309.250, 309.500, 309.750, 310.000);
+};
+});
+
+	Channels = (1,
+{ Name = "counter0"; Unit = "Hz";});
+};
+ Time = "2003 May23 15:06:23"; BeamFeedback = true; ShutterAutomatic = true;
+Channels = (1,
+{ ID = 0; Type = 0; Name = "counter0"; Controller = 0; DeviceNumber = 0; UnitName = "Hz"; LinearCoefficient = 1; ConstantCoefficient = 0; ProcessString = "I";});
+
+Monochromator = { Name = "Energy"; LastPosition = 310.003; Status = 0; Type = 1; ControllerID = 61; Vel = 0; Accel = 0; DeltaAccel = 5; VelMax = 2; AccelMax = 10; DeltaAccelMax = 10; Resolution = 1; HomePosition = 0; SoftLimLow = -10000; SoftLimHigh = 10000; Precision = 0.001; CoEffProportional = 0; CoEffDifferential = 0; CoEffIntegral = 0; FFVel = 0; FFAccel = 0; FFDeltaAccel = 10; GoTo = "moveto"; Stop = "stop"; GetPos = "getpos"; GetStatus = "getstat"; SetVel = ""; SetPos = ""; GoHome = ""; ON = ""; OFF = "";};
+
+EntranceSlit = { Name = "Micro Mirror Horz Deflection"; LastPosition = -0.141; Status = 0; Type = 1; ControllerID = 64; Vel = 200; Accel = 500; DeltaAccel = 500; VelMax = 200; AccelMax = 500; DeltaAccelMax = 500; Resolution = 1; HomePosition = 0; SoftLimLow = -100; SoftLimHigh = 400; Precision = 0.001; CoEffProportional = 0; CoEffDifferential = 0; CoEffIntegral = 0; FFVel = 1; FFAccel = 1; FFDeltaAccel = 500; GoTo = "moveto"; Stop = "stop"; GetPos = "getpos"; GetStatus = "getstat"; SetVel = ""; SetPos = "setpos"; GoHome = ""; ON = ""; OFF = "";};
+
+ExitVSlit = { Name = "Microscopy Slit Width"; LastPosition = 50; Status = 0; Type = 1; ControllerID = 63; Vel = 200; Accel = 500; DeltaAccel = 500; VelMax = 300; AccelMax = 800; DeltaAccelMax = 500; Resolution = 1; HomePosition = -29; SoftLimLow = -100; SoftLimHigh = 2000; Precision = 1; CoEffProportional = 0; CoEffDifferential = 0; CoEffIntegral = 0; FFVel = 1; FFAccel = 1; FFDeltaAccel = 500; GoTo = "moveto"; Stop = "stop"; GetPos = "getpos"; GetStatus = "getstat"; SetVel = ""; SetPos = "setpos"; GoHome = ""; ON = ""; OFF = "";};
+
+ExitHSlit = { Name = "Microscopy Slit Height"; LastPosition = 30; Status = 0; Type = 1; ControllerID = 62; Vel = 200; Accel = 500; DeltaAccel = 500; VelMax = 200; AccelMax = 500; DeltaAccelMax = 500; Resolution = 1; HomePosition = 9; SoftLimLow = -50; SoftLimHigh = 2000; Precision = 1; CoEffProportional = 0; CoEffDifferential = 0; CoEffIntegral = 0; FFVel = 1; FFAccel = 1; FFDeltaAccel = 500; GoTo = "moveto"; Stop = "stop"; GetPos = "getpos"; GetStatus = "getstat"; SetVel = ""; SetPos = "setpos"; GoHome = ""; ON = ""; OFF = "";};
+
+SampleFineX = { Name = "SampleFineX"; LastPosition = 5412.7564; Status = 0; Type = 0; ControllerID = 41; Vel = 4; Accel = 10; DeltaAccel = 40; VelMax = 10; AccelMax = 100; DeltaAccelMax = 100; Resolution = 0.001; HomePosition = 0; SoftLimLow = -20000; SoftLimHigh = 20000; Precision = 0.005; CoEffProportional = 0.2; CoEffDifferential = 7; CoEffIntegral = 0.015; FFVel = 0; FFAccel = 0; FFDeltaAccel = 100; GoTo = ""; Stop = ""; GetPos = ""; GetStatus = ""; SetVel = ""; SetPos = ""; GoHome = ""; ON = ""; OFF = "";};
+
+SampleFineY = { Name = "SampleFineY"; LastPosition = -251.74111; Status = 0; Type = 0; ControllerID = 42; Vel = 2; Accel = 2; DeltaAccel = 2; VelMax = 20; AccelMax = 30; DeltaAccelMax = 30; Resolution = 0.001; HomePosition = 100; SoftLimLow = -20000; SoftLimHigh = 20000; Precision = 0.005; CoEffProportional = 0.2; CoEffDifferential = 6; CoEffIntegral = 0.015; FFVel = 5; FFAccel = 2; FFDeltaAccel = 30; GoTo = ""; Stop = ""; GetPos = ""; GetStatus = ""; SetVel = ""; SetPos = ""; GoHome = ""; ON = ""; OFF = "";};
+
+SampleFineZ = { Name = "SampleFineZ"; LastPosition = 5; Status = 0; Type = 1; ControllerID = 0; Vel = 1; Accel = 1; DeltaAccel = 1; VelMax = 0; AccelMax = 0; DeltaAccelMax = 0; Resolution = 0.001; HomePosition = 0; SoftLimLow = -100; SoftLimHigh = 45000; Precision = 0.001; CoEffProportional = 0; CoEffDifferential = 0; CoEffIntegral = 0; FFVel = 0; FFAccel = 0; FFDeltaAccel = 0; GoTo = ""; Stop = ""; GetPos = ""; GetStatus = ""; SetVel = ""; SetPos = ""; GoHome = ""; ON = ""; OFF = "";};
+
+SampleCoarseX = { Name = "SampleCoarseX"; LastPosition = 5430.08; Status = 1; Type = 1; ControllerID = 22; Vel = 2; Accel = 2; DeltaAccel = 1; VelMax = 6; AccelMax = 10; DeltaAccelMax = 10; Resolution = -0.001; HomePosition = 7000; SoftLimLow = -13000; SoftLimHigh = 15000; Precision = 0.05; CoEffProportional = 0; CoEffDifferential = 0; CoEffIntegral = 0; FFVel = 0; FFAccel = 0; FFDeltaAccel = 10; GoTo = ""; Stop = ""; GetPos = ""; GetStatus = ""; SetVel = ""; SetPos = ""; GoHome = ""; ON = ""; OFF = "";};
+
+SampleCoarseY = { Name = "SampleCoarseY"; LastPosition = -239.9; Status = 1; Type = 1; ControllerID = 23; Vel = 0.2; Accel = 1; DeltaAccel = 0; VelMax = 0.2; AccelMax = 6; DeltaAccelMax = 0; Resolution = -0.001; HomePosition = 670; SoftLimLow = -1400; SoftLimHigh = 2700; Precision = 0.1; CoEffProportional = 0; CoEffDifferential = 0; CoEffIntegral = 0; FFVel = 1; FFAccel = 1; FFDeltaAccel = 0; GoTo = ""; Stop = ""; GetPos = ""; GetStatus = ""; SetVel = ""; SetPos = ""; GoHome = ""; ON = ""; OFF = "";};
+
+SampleCoarseZ = { Name = "SampleCoarseZ"; LastPosition = 565; Status = 1; Type = 1; ControllerID = 24; Vel = 0.5; Accel = 2; DeltaAccel = 1; VelMax = 1; AccelMax = 10; DeltaAccelMax = 10; Resolution = 0.001; HomePosition = 8000; SoftLimLow = 200; SoftLimHigh = 22000; Precision = 0.5; CoEffProportional = 0; CoEffDifferential = 0; CoEffIntegral = 0; FFVel = 0; FFAccel = 0; FFDeltaAccel = 10; GoTo = ""; Stop = ""; GetPos = ""; GetStatus = ""; SetVel = ""; SetPos = ""; GoHome = ""; ON = ""; OFF = "";};
+
+ZonePlateZ = { Name = "ZonePlateZ"; LastPosition = -1011.6; Status = 0; Type = 1; ControllerID = 21; Vel = 0.4; Accel = 1; DeltaAccel = 0; VelMax = 0.3; AccelMax = 1.2; DeltaAccelMax = 0; Resolution = 1; HomePosition = -7414.5349; SoftLimLow = -20000; SoftLimHigh = -400; Precision = 0.1; CoEffProportional = 0; CoEffDifferential = 0; CoEffIntegral = 0; FFVel = 0; FFAccel = 0; FFDeltaAccel = 0; GoTo = ""; Stop = ""; GetPos = ""; GetStatus = ""; SetVel = ""; SetPos = ""; GoHome = ""; ON = ""; OFF = "";};
+
+OSAX = { Name = "OSAX"; LastPosition = 0; Status = 0; Type = 1; ControllerID = 25; Vel = 0.15; Accel = 0.5; DeltaAccel = 1; VelMax = 2; AccelMax = 2; DeltaAccelMax = 2; Resolution = -0.001; HomePosition = 0; SoftLimLow = -20000; SoftLimHigh = 20000; Precision = 0.005; CoEffProportional = 0; CoEffDifferential = 0; CoEffIntegral = 0; FFVel = 0; FFAccel = 0; FFDeltaAccel = 2; GoTo = ""; Stop = ""; GetPos = ""; GetStatus = ""; SetVel = ""; SetPos = ""; GoHome = ""; ON = ""; OFF = "";};
+
+OSAY = { Name = "OSAY"; LastPosition = 0; Status = 0; Type = 1; ControllerID = 26; Vel = 0.1; Accel = 0.5; DeltaAccel = 0; VelMax = 0; AccelMax = 0; DeltaAccelMax = 0; Resolution = -0.001; HomePosition = 0; SoftLimLow = -6000; SoftLimHigh = 20000; Precision = 0.005; CoEffProportional = 0; CoEffDifferential = 0; CoEffIntegral = 0; FFVel = 0; FFAccel = 0; FFDeltaAccel = 0; GoTo = ""; Stop = ""; GetPos = ""; GetStatus = ""; SetVel = ""; SetPos = ""; GoHome = ""; ON = ""; OFF = "";};
+
+DetectorX = { Name = "DetectorX"; LastPosition = 0; Status = 0; Type = 1; ControllerID = 0; Vel = 0.2; Accel = 0.2; DeltaAccel = 0; VelMax = 0.3; AccelMax = 0.3; DeltaAccelMax = 0; Resolution = 0.001; HomePosition = 0; SoftLimLow = -22000; SoftLimHigh = 20000; Precision = 0.1; CoEffProportional = 0; CoEffDifferential = 0; CoEffIntegral = 0; FFVel = 0; FFAccel = 0; FFDeltaAccel = 0; GoTo = ""; Stop = ""; GetPos = ""; GetStatus = ""; SetVel = ""; SetPos = ""; GoHome = ""; ON = ""; OFF = "";};
+
+DetectorY = { Name = "DetectorY"; LastPosition = 0; Status = 0; Type = 1; ControllerID = 0; Vel = 0.15; Accel = 0.3; DeltaAccel = 0; VelMax = 0.2; AccelMax = 0.4; DeltaAccelMax = 0; Resolution = 0.001; HomePosition = 0; SoftLimLow = -20000; SoftLimHigh = 20000; Precision = 0.005; CoEffProportional = 0; CoEffDifferential = 0; CoEffIntegral = 0; FFVel = 0; FFAccel = 0; FFDeltaAccel = 0; GoTo = ""; Stop = ""; GetPos = ""; GetStatus = ""; SetVel = ""; SetPos = ""; GoHome = ""; ON = ""; OFF = "";};
+
+DetectorZ = { Name = "DetectorZ"; LastPosition = 0; Status = 0; Type = 1; ControllerID = 0; Vel = 0.15; Accel = 0.2; DeltaAccel = 0; VelMax = 0.2; AccelMax = 0.3; DeltaAccelMax = 0; Resolution = -0.001; HomePosition = -20000; SoftLimLow = -10000; SoftLimHigh = 13000; Precision = 0.005; CoEffProportional = 0; CoEffDifferential = 0; CoEffIntegral = 0; FFVel = 0; FFAccel = 0; FFDeltaAccel = 0; GoTo = ""; Stop = ""; GetPos = ""; GetStatus = ""; SetVel = ""; SetPos = ""; GoHome = ""; ON = ""; OFF = "";};
+
+ImageScan = { ScanType = "Point"; Stage = "Automatic"; Shutter = "Automatic"; Interferometry = "On"; SingleEnergy = false;
+	EnergyRegions = (1,
+{ StartEnergy = 280; EndEnergy = 310; Range = 30; Step = 0.25; Points = 121; DwellTime = 1000;});
+ PointDelay = 0.1; LineDelay = 50; AccelDist = 0.3; MultipleRegions = false;
+	SpatialRegions = (1,
+{ CentreXPos = 5412.76; CentreYPos = -251.74;});
+};
