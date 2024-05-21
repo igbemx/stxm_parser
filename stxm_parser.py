@@ -1,3 +1,11 @@
+"""
+File: stxm_hdr_parser.py
+
+This is a parser for HDR data format of ALS STXM software.
+
+Author: Igor Beinik
+Date: 2024-05-21
+"""
 import json
 import re, numpy, sys
 from os.path import splitext, join, dirname, isfile
